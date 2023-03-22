@@ -1,4 +1,4 @@
-package DSA.Queue;
+package Queue;
 
 public class Queue {
     
