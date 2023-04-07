@@ -2,7 +2,7 @@ package Sorting;
 
 import java.util.Scanner;
 
-public class SelectionSort {
+public class Sorting {
 
     static void selectionSort(int arr[], int n){
         for(int i = 0; i <= n-2; i ++){
