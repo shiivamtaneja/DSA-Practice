@@ -47,9 +47,13 @@ public class Hash_Map {
         // }
 
         // Method 2 - keySet() - Creates a set of only the keys of hashMap 
-        Set<Integer> keys = hashMap.keySet();
-        for(Integer key : keys ) {
-            System.out.println(key + " " + hashMap.get(key));
-        }
+        // Set<Integer> keys = hashMap.keySet();
+        // for(Integer key : keys ) {
+        //     System.out.println(key + " " + hashMap.get(key));
+        // }
+
+        // Remove
+        hashMap.remove(1);
+        System.out.println(hashMap);
     }
 }
