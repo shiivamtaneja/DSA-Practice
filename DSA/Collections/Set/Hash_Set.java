@@ -25,7 +25,7 @@ public class Hash_Set {
         System.out.println(set);
 
         // Iterator
-        Iterator it = set.iterator();
+        Iterator<Integer> it = set.iterator();
 
         while(it.hasNext()) {
             System.out.print(it.next() + " ");
