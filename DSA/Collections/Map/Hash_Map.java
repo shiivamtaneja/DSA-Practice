@@ -12,17 +12,17 @@ public class Hash_Map {
         // // Insertion
         hashMap.put(1, 2);
         hashMap.put(2, 2);
-        hashMap.put(3, 2);
         hashMap.put(4, 2);
+        hashMap.put(3, 2);
         System.out.println(hashMap);
 
-        // // Search
+        // Search
         // if (hashMap.containsKey(1)) {
         //     System.out.println("Present");
         // } else {
         //     System.out.println("Not Present");
         // }
-        // // Find the value of element
+        // Find the value of element
         // System.out.println(hashMap.get(1));
 
         // Iteration
@@ -41,19 +41,20 @@ public class Hash_Map {
         // System.out.println();
 
         // Method 1 - entrySet() - Creates a set of all the entries of hashMap
-        // for (Map.Entry<Integer, Integer> e : hashMap.entrySet()) {
-        //     System.out.print("Key is : " + e.getKey());
-        //     System.out.println(" Value is : " + e.getValue());
-        // }
+        for (Map.Entry<Integer, Integer> e : hashMap.entrySet()) {
+            System.out.println("Value of e is: " + e);
+            System.out.println("Key is : " + e.getKey());
+            System.out.println("Value is : " + e.getValue());
+        }
 
-        // Method 2 - keySet() - Creates a set of only the keys of hashMap 
+        // Method 2 - keySet() - Creates a set of only the keys of hashMap
         // Set<Integer> keys = hashMap.keySet();
         // for(Integer key : keys ) {
-        //     System.out.println(key + " " + hashMap.get(key));
+        // System.out.println(key + " " + hashMap.get(key));
         // }
 
         // Remove
-        hashMap.remove(1);
-        System.out.println(hashMap);
+        // hashMap.remove(1);
+        // System.out.println(hashMap);
     }
 }
