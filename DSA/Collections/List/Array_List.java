@@ -6,7 +6,7 @@ import java.util.*;
 public class Array_List {
         
     public static void main(String[] args) {
-    
+        
         // Integer | String | Boolean
         ArrayList<Integer> list = new ArrayList<>();
 
