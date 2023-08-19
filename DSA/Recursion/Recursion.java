@@ -124,6 +124,13 @@ public class Recursion {
     return checkPalindrome(s, i + 1);
   }
 
+  // Nth Fibonacci Number
+  public static int fibonacciNumber(int n) {
+    if(n <= 1) 
+      return n;
+    return fibonacciNumber(n-1) + fibonacciNumber(n - 2);
+  }
+
   public static void main(String[] args) {
     // int n = 5;
 
@@ -153,8 +160,10 @@ public class Recursion {
     // reverseArrayOnePtr(arr, 0);
     // printArray(arr);
     
-    String s = "MADAM";
-    System.out.println(checkPalindrome(s, 0));
-  }
+    // String s = "MADAM";
+    // System.out.println(checkPalindrome(s, 0));
 
+    System.out.println(fibonacciNumber(3));
+  }
+  
 }
